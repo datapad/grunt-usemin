@@ -91,7 +91,7 @@ var getLocator = function (grunt, options) {
 //
 
 module.exports = function (grunt) {
-  var FileProcessor = require('../lib/fileprocessor');
+  var FileProcessor = require('../lib/fileprocessor').FileProcessor;
   var RevvedFinder = require('../lib/revvedfinder');
   var ConfigWriter = require('../lib/configwriter');
   var _ = grunt.util._;
